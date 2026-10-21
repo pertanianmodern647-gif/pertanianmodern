@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Green Haven Adventure — destinasi edukasi pertanian terbaik untuk keluarga. Jelajahi kebun, belajar bertani, dan ciptakan pengalaman seru di alam.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B1%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#245c3b">
+  <title>Green Haven Adventure | Agrowisata & Edukasi Pertanian</title>
+  <style>
+    :root {
+      --green: #245c3b;
+      --green-dark: #173f2a;
+      --green-light: #e9f2e7;
+      --lime: #c9df8a;
+      --cream: #fbf8ef;
+      --ink: #243129;
+      --muted: #68766c;
+      --white: #fff;
+      --shadow: 0 18px 45px rgba(27, 61, 39, .12);
+      --radius: 22px;
+      --ill-hills: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%238fd0ee'/%3E%3Cstop offset='1' stop-color='%23eaf6e1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23sky)'/%3E%3Ccircle cx='610' cy='130' r='110.39999999999999' fill='%23ffe08a' opacity='.18'/%3E%3Ccircle cx='610' cy='130' r='73.60000000000001' fill='%23ffe08a' opacity='.28'/%3E%3Ccircle cx='610' cy='130' r='46' fill='%23ffe08a'/%3E%3Cg transform='translate(150 110) scale(1.1)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(360 70) scale(0.7)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(700 220) scale(0.8)' fill='%23fff' opacity='0.75'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cpath d='M0 330 C150 270 280 300 400 320 C520 340 650 270 800 310 L800 600 L0 600Z' fill='%23a5d28f'/%3E%3Cpath d='M0 385 C120 335 260 365 380 385 C520 405 660 345 800 375 L800 600 L0 600Z' fill='%2372b261'/%3E%3Cg transform='translate(630 372) scale(0.55)'%3E%3Crect x='-60' y='-50' width='120' height='72' fill='%23b8433a'/%3E%3Cpolygon points='-70,-50 0,-104 70,-50' fill='%238f2f2a'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='%23f4e9d8'/%3E%3Cpath d='M-22 -14 L22 22 M22 -14 L-22 22' stroke='%23b8433a' stroke-width='4'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='none' stroke='%23b8433a' stroke-width='4'/%3E%3Ccircle cy='-64' r='8' fill='%23f4e9d8'/%3E%3C/g%3E%3Cg transform='translate(110 392) scale(0.6)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%233f7d46'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%233f7d46'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%233f7d46'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Cg transform='translate(185 402) scale(0.42)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%234a8c4c'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%234a8c4c'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%234a8c4c'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Crect y='430' width='800' height='170' fill='%234f9a4f'/%3E%3Cpolygon points='292,430 310,430 -450,600 -620,600' fill='%234f9a4f'/%3E%3Cpolygon points='310,430 328,430 -280,600 -450,600' fill='%235fa856'/%3E%3Cpolygon points='328,430 346,430 -110,600 -280,600' fill='%234f9a4f'/%3E%3Cpolygon points='346,430 364,430 60,600 -110,600' fill='%235fa856'/%3E%3Cpolygon points='364,430 382,430 230,600 60,600' fill='%234f9a4f'/%3E%3Cpolygon points='382,430 400,430 400,600 230,600' fill='%235fa856'/%3E%3Cpolygon points='400,430 418,430 570,600 400,600' fill='%234f9a4f'/%3E%3Cpolygon points='418,430 436,430 740,600 570,600' fill='%235fa856'/%3E%3Cpolygon points='436,430 454,430 910,600 740,600' fill='%234f9a4f'/%3E%3Cpolygon points='454,430 472,430 1080,600 910,600' fill='%235fa856'/%3E%3Cpolygon points='472,430 490,430 1250,600 1080,600' fill='%234f9a4f'/%3E%3Cpolygon points='490,430 508,430 1420,600 1250,600' fill='%235fa856'/%3E%3Cpath d='M0 436 C150 414 300 440 450 424 C600 410 700 434 800 420 L800 452 L0 452Z' fill='%2372b261'/%3E%3Cpath d='M-10 600 Q-11.0 576.6 -12 561 Q-8 580.5 -1 600 M5 600 Q8.0 583.2 11 572 Q15 586.0 14 600 M20 600 Q18.5 572.4 17 554 Q21 577.0 29 600 M35 600 Q37.5 579.0 40 565 Q44 582.5 44 600 M50 600 Q48.0 585.6 46 576 Q50 588.0 59 600 M65 600 Q67.0 574.8 69 558 Q73 579.0 74 600 M80 600 Q77.5 581.4 75 569 Q79 584.5 89 600 M95 600 Q96.5 570.6 98 551 Q102 575.5 104 600 M110 600 Q107.0 577.2 104 562 Q108 581.0 119 600 M125 600 Q126.0 583.8 127 573 Q131 586.5 134 600 M140 600 Q136.5 573.0 133 555 Q137 577.5 149 600 M155 600 Q155.5 579.6 156 566 Q160 583.0 164 600 M170 600 Q166.0 586.2 162 577 Q166 588.5 179 600 M185 600 Q185.0 575.4 185 559 Q189 579.5 194 600 M200 600 Q204.0 582.0 208 570 Q212 585.0 209 600 M215 600 Q214.5 571.2 214 552 Q218 576.0 224 600 M230 600 Q233.5 577.8 237 563 Q241 581.5 239 600 M245 600 Q244.0 584.4 243 574 Q247 587.0 254 600 M260 600 Q263.0 573.6 266 556 Q270 578.0 269 600 M275 600 Q273.5 580.2 272 567 Q276 583.5 284 600 M290 600 Q292.5 586.8 295 578 Q299 589.0 299 600 M305 600 Q303.0 576.0 301 560 Q305 580.0 314 600 M320 600 Q322.0 582.6 324 571 Q328 585.5 329 600 M335 600 Q332.5 571.8 330 553 Q334 576.5 344 600 M350 600 Q351.5 578.4 353 564 Q357 582.0 359 600 M365 600 Q362.0 585.0 359 575 Q363 587.5 374 600 M380 600 Q381.0 574.2 382 557 Q386 578.5 389 600 M395 600 Q391.5 580.8 388 568 Q392 584.0 404 600 M410 600 Q410.5 570.0 411 550 Q415 575.0 419 600 M425 600 Q421.0 576.6 417 561 Q421 580.5 434 600 M440 600 Q440.0 583.2 440 572 Q444 586.0 449 600 M455 600 Q459.0 572.4 463 554 Q467 577.0 464 600 M470 600 Q469.5 579.0 469 565 Q473 582.5 479 600 M485 600 Q488.5 585.6 492 576 Q496 588.0 494 600 M500 600 Q499.0 574.8 498 558 Q502 579.0 509 600 M515 600 Q518.0 581.4 521 569 Q525 584.5 524 600 M530 600 Q528.5 570.6 527 551 Q531 575.5 539 600 M545 600 Q547.5 577.2 550 562 Q554 581.0 554 600 M560 600 Q558.0 583.8 556 573 Q560 586.5 569 600 M575 600 Q577.0 573.0 579 555 Q583 577.5 584 600 M590 600 Q587.5 579.6 585 566 Q589 583.0 599 600 M605 600 Q606.5 586.2 608 577 Q612 588.5 614 600 M620 600 Q617.0 575.4 614 559 Q618 579.5 629 600 M635 600 Q636.0 582.0 637 570 Q641 585.0 644 600 M650 600 Q646.5 571.2 643 552 Q647 576.0 659 600 M665 600 Q665.5 577.8 666 563 Q670 581.5 674 600 M680 600 Q676.0 584.4 672 574 Q676 587.0 689 600 M695 600 Q695.0 573.6 695 556 Q699 578.0 704 600 M710 600 Q714.0 580.2 718 567 Q722 583.5 719 600 M725 600 Q724.5 586.8 724 578 Q728 589.0 734 600 M740 600 Q743.5 576.0 747 560 Q751 580.0 749 600 M755 600 Q754.0 582.6 753 571 Q757 585.5 764 600 M770 600 Q773.0 571.8 776 553 Q780 576.5 779 600 M785 600 Q783.5 578.4 782 564 Q786 582.0 794 600 M800 600 Q802.5 585.0 805 575 Q809 587.5 809 600 M815 600 Q813.0 574.2 811 557 Q815 578.5 824 600 Z' fill='%233a7f40'/%3E%3Cg transform='translate(70 520) scale(1.2)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ff7b9c'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(740 525) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23fff'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(690 540) scale(0.9)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ffb347'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(130 545) scale(0.8)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23fff'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3C/svg%3E");
+      --ill-sunset: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23f6a96b'/%3E%3Cstop offset='1' stop-color='%23fde9b8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23sky)'/%3E%3Ccircle cx='610' cy='130' r='110.39999999999999' fill='%23fff1b0' opacity='.18'/%3E%3Ccircle cx='610' cy='130' r='73.60000000000001' fill='%23fff1b0' opacity='.28'/%3E%3Ccircle cx='610' cy='130' r='46' fill='%23fff1b0'/%3E%3Cg transform='translate(150 110) scale(1.1)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(360 70) scale(0.7)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(700 220) scale(0.8)' fill='%23fff' opacity='0.75'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cpath d='M0 330 C150 270 280 300 400 320 C520 340 650 270 800 310 L800 600 L0 600Z' fill='%23b9c77f'/%3E%3Cpath d='M0 385 C120 335 260 365 380 385 C520 405 660 345 800 375 L800 600 L0 600Z' fill='%238fb45d'/%3E%3Cg transform='translate(630 372) scale(0.55)'%3E%3Crect x='-60' y='-50' width='120' height='72' fill='%23b8433a'/%3E%3Cpolygon points='-70,-50 0,-104 70,-50' fill='%238f2f2a'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='%23f4e9d8'/%3E%3Cpath d='M-22 -14 L22 22 M22 -14 L-22 22' stroke='%23b8433a' stroke-width='4'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='none' stroke='%23b8433a' stroke-width='4'/%3E%3Ccircle cy='-64' r='8' fill='%23f4e9d8'/%3E%3C/g%3E%3Cg transform='translate(110 392) scale(0.6)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%233f7d46'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%233f7d46'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%233f7d46'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Cg transform='translate(185 402) scale(0.42)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%234a8c4c'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%234a8c4c'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%234a8c4c'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Crect y='430' width='800' height='170' fill='%236aa24f'/%3E%3Cpolygon points='292,430 310,430 -450,600 -620,600' fill='%236aa24f'/%3E%3Cpolygon points='310,430 328,430 -280,600 -450,600' fill='%2378ae56'/%3E%3Cpolygon points='328,430 346,430 -110,600 -280,600' fill='%236aa24f'/%3E%3Cpolygon points='346,430 364,430 60,600 -110,600' fill='%2378ae56'/%3E%3Cpolygon points='364,430 382,430 230,600 60,600' fill='%236aa24f'/%3E%3Cpolygon points='382,430 400,430 400,600 230,600' fill='%2378ae56'/%3E%3Cpolygon points='400,430 418,430 570,600 400,600' fill='%236aa24f'/%3E%3Cpolygon points='418,430 436,430 740,600 570,600' fill='%2378ae56'/%3E%3Cpolygon points='436,430 454,430 910,600 740,600' fill='%236aa24f'/%3E%3Cpolygon points='454,430 472,430 1080,600 910,600' fill='%2378ae56'/%3E%3Cpolygon points='472,430 490,430 1250,600 1080,600' fill='%236aa24f'/%3E%3Cpolygon points='490,430 508,430 1420,600 1250,600' fill='%2378ae56'/%3E%3Cpath d='M0 436 C150 414 300 440 450 424 C600 410 700 434 800 420 L800 452 L0 452Z' fill='%238fb45d'/%3E%3Cpath d='M-10 600 Q-11.0 576.6 -12 561 Q-8 580.5 -1 600 M5 600 Q8.0 583.2 11 572 Q15 586.0 14 600 M20 600 Q18.5 572.4 17 554 Q21 577.0 29 600 M35 600 Q37.5 579.0 40 565 Q44 582.5 44 600 M50 600 Q48.0 585.6 46 576 Q50 588.0 59 600 M65 600 Q67.0 574.8 69 558 Q73 579.0 74 600 M80 600 Q77.5 581.4 75 569 Q79 584.5 89 600 M95 600 Q96.5 570.6 98 551 Q102 575.5 104 600 M110 600 Q107.0 577.2 104 562 Q108 581.0 119 600 M125 600 Q126.0 583.8 127 573 Q131 586.5 134 600 M140 600 Q136.5 573.0 133 555 Q137 577.5 149 600 M155 600 Q155.5 579.6 156 566 Q160 583.0 164 600 M170 600 Q166.0 586.2 162 577 Q166 588.5 179 600 M185 600 Q185.0 575.4 185 559 Q189 579.5 194 600 M200 600 Q204.0 582.0 208 570 Q212 585.0 209 600 M215 600 Q214.5 571.2 214 552 Q218 576.0 224 600 M230 600 Q233.5 577.8 237 563 Q241 581.5 239 600 M245 600 Q244.0 584.4 243 574 Q247 587.0 254 600 M260 600 Q263.0 573.6 266 556 Q270 578.0 269 600 M275 600 Q273.5 580.2 272 567 Q276 583.5 284 600 M290 600 Q292.5 586.8 295 578 Q299 589.0 299 600 M305 600 Q303.0 576.0 301 560 Q305 580.0 314 600 M320 600 Q322.0 582.6 324 571 Q328 585.5 329 600 M335 600 Q332.5 571.8 330 553 Q334 576.5 344 600 M350 600 Q351.5 578.4 353 564 Q357 582.0 359 600 M365 600 Q362.0 585.0 359 575 Q363 587.5 374 600 M380 600 Q381.0 574.2 382 557 Q386 578.5 389 600 M395 600 Q391.5 580.8 388 568 Q392 584.0 404 600 M410 600 Q410.5 570.0 411 550 Q415 575.0 419 600 M425 600 Q421.0 576.6 417 561 Q421 580.5 434 600 M440 600 Q440.0 583.2 440 572 Q444 586.0 449 600 M455 600 Q459.0 572.4 463 554 Q467 577.0 464 600 M470 600 Q469.5 579.0 469 565 Q473 582.5 479 600 M485 600 Q488.5 585.6 492 576 Q496 588.0 494 600 M500 600 Q499.0 574.8 498 558 Q502 579.0 509 600 M515 600 Q518.0 581.4 521 569 Q525 584.5 524 600 M530 600 Q528.5 570.6 527 551 Q531 575.5 539 600 M545 600 Q547.5 577.2 550 562 Q554 581.0 554 600 M560 600 Q558.0 583.8 556 573 Q560 586.5 569 600 M575 600 Q577.0 573.0 579 555 Q583 577.5 584 600 M590 600 Q587.5 579.6 585 566 Q589 583.0 599 600 M605 600 Q606.5 586.2 608 577 Q612 588.5 614 600 M620 600 Q617.0 575.4 614 559 Q618 579.5 629 600 M635 600 Q636.0 582.0 637 570 Q641 585.0 644 600 M650 600 Q646.5 571.2 643 552 Q647 576.0 659 600 M665 600 Q665.5 577.8 666 563 Q670 581.5 674 600 M680 600 Q676.0 584.4 672 574 Q676 587.0 689 600 M695 600 Q695.0 573.6 695 556 Q699 578.0 704 600 M710 600 Q714.0 580.2 718 567 Q722 583.5 719 600 M725 600 Q724.5 586.8 724 578 Q728 589.0 734 600 M740 600 Q743.5 576.0 747 560 Q751 580.0 749 600 M755 600 Q754.0 582.6 753 571 Q757 585.5 764 600 M770 600 Q773.0 571.8 776 553 Q780 576.5 779 600 M785 600 Q783.5 578.4 782 564 Q786 582.0 794 600 M800 600 Q802.5 585.0 805 575 Q809 587.5 809 600 M815 600 Q813.0 574.2 811 557 Q815 578.5 824 600 Z' fill='%233a7f40'/%3E%3Cg transform='translate(70 520) scale(1.2)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ff7b9c'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(740 525) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23fff'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(690 540) scale(0.9)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ffb347'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(130 545) scale(0.8)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23fff'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3C/svg%3E");
+      --ill-plant: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23eaf6d8'/%3E%3Cstop offset='1' stop-color='%23cde5ac'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23bg)'/%3E%3Ccircle cx='660' cy='110' r='105.6' fill='%23ffe08a' opacity='.18'/%3E%3Ccircle cx='660' cy='110' r='70.4' fill='%23ffe08a' opacity='.28'/%3E%3Ccircle cx='660' cy='110' r='44' fill='%23ffe08a'/%3E%3Cg transform='translate(160 120) scale(1)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(430 80) scale(0.65)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Ccircle cx='140' cy='360' r='120' fill='%23fff' opacity='.18'/%3E%3Ccircle cx='400' cy='300' r='170' fill='%23fff' opacity='.12'/%3E%3Cg transform='translate(520 215)'%3E%3Cpath d='M-40 -28 C-40 -50 40 -50 40 -28Z' fill='%233a86ad'/%3E%3Crect x='-42' y='-30' width='84' height='62' rx='10' fill='%234b9cc4'/%3E%3Crect x='-42' y='-12' width='84' height='8' fill='%23fff' opacity='.2'/%3E%3Cpolygon points='40,-8 104,-52 114,-38 40,16' fill='%234b9cc4'/%3E%3Cellipse cx='112' cy='-45' rx='9' ry='15' transform='rotate(35 112 -45)' fill='%233a86ad'/%3E%3Cpath d='M-42 -14 C-84 -20 -84 30 -42 24' stroke='%233a86ad' stroke-width='10' fill='none' stroke-linecap='round'/%3E%3C/g%3E%3Cpath d='M640 232 q-7 12 0 18 q7 -6 0 -18Z' fill='%235bb5e8' opacity='.85'/%3E%3Cpath d='M654 268 q-7 12 0 18 q7 -6 0 -18Z' fill='%235bb5e8' opacity='.85'/%3E%3Cpath d='M632 306 q-7 12 0 18 q7 -6 0 -18Z' fill='%235bb5e8' opacity='.85'/%3E%3Cpath d='M660 342 q-7 12 0 18 q7 -6 0 -18Z' fill='%235bb5e8' opacity='.85'/%3E%3Cpath d='M644 372 q-7 12 0 18 q7 -6 0 -18Z' fill='%235bb5e8' opacity='.85'/%3E%3Cpath d='M0 470 C150 438 300 468 400 454 C520 440 650 470 800 448 L800 600 L0 600Z' fill='%238a5d3b'/%3E%3Cpath d='M0 520 C160 498 320 528 470 512 C600 500 700 520 800 506 L800 600 L0 600Z' fill='%236b4529'/%3E%3Cg transform='translate(200 475) scale(1.05)'%3E%3Cpath d='M0 0 C-5 -40 5 -80 0 -118' stroke='%234f9a4f' stroke-width='9' fill='none' stroke-linecap='round'/%3E%3Cpath d='M0 -108 C-52 -132 -86 -100 -74 -66 C-32 -66 -6 -82 0 -108Z' fill='%236fb15a'/%3E%3Cpath d='M0 -98 C52 -124 88 -94 74 -60 C32 -63 6 -76 0 -98Z' fill='%238cc86a'/%3E%3Cpath d='M-6 -100 C-30 -100 -52 -90 -62 -72' stroke='%234f9a4f' stroke-width='2' fill='none' opacity='.5'/%3E%3C/g%3E%3Cg transform='translate(400 485) scale(1.5)'%3E%3Cpath d='M0 0 C-5 -40 5 -80 0 -118' stroke='%234f9a4f' stroke-width='9' fill='none' stroke-linecap='round'/%3E%3Cpath d='M0 -108 C-52 -132 -86 -100 -74 -66 C-32 -66 -6 -82 0 -108Z' fill='%236fb15a'/%3E%3Cpath d='M0 -98 C52 -124 88 -94 74 -60 C32 -63 6 -76 0 -98Z' fill='%238cc86a'/%3E%3Cpath d='M-6 -100 C-30 -100 -52 -90 -62 -72' stroke='%234f9a4f' stroke-width='2' fill='none' opacity='.5'/%3E%3C/g%3E%3Cg transform='translate(630 472) scale(0.9)'%3E%3Cpath d='M0 0 C-5 -40 5 -80 0 -118' stroke='%234f9a4f' stroke-width='9' fill='none' stroke-linecap='round'/%3E%3Cpath d='M0 -108 C-52 -132 -86 -100 -74 -66 C-32 -66 -6 -82 0 -108Z' fill='%236fb15a'/%3E%3Cpath d='M0 -98 C52 -124 88 -94 74 -60 C32 -63 6 -76 0 -98Z' fill='%238cc86a'/%3E%3Cpath d='M-6 -100 C-30 -100 -52 -90 -62 -72' stroke='%234f9a4f' stroke-width='2' fill='none' opacity='.5'/%3E%3C/g%3E%3Cg fill='%235a3a22' opacity='.5'%3E%3Ccircle cx='120' cy='540' r='6'/%3E%3Ccircle cx='300' cy='560' r='7'/%3E%3Ccircle cx='520' cy='550' r='6'/%3E%3Ccircle cx='700' cy='566' r='7'/%3E%3C/g%3E%3C/svg%3E");
+      --ill-harvest: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23fcf0d4'/%3E%3Cstop offset='1' stop-color='%23f3dcae'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23bg)'/%3E%3Ccircle cx='650' cy='140' r='140' fill='%23fff' opacity='.3'/%3E%3Ccircle cx='130' cy='220' r='90' fill='%23fff' opacity='.25'/%3E%3Ccircle cx='300' cy='330' r='70' fill='%2358a24a'/%3E%3Ccircle cx='380' cy='300' r='80' fill='%236fb55a'/%3E%3Ccircle cx='470' cy='330' r='72' fill='%234f9a4f'/%3E%3Ccircle cx='340' cy='360' r='60' fill='%237cc263'/%3E%3Ccircle cx='430' cy='365' r='62' fill='%235aa84d'/%3E%3Cpath d='M380 300 v90 M340 320 q20 30 30 70 M420 320 q-20 30 -30 70' stroke='%233f7d46' stroke-width='3' fill='none' opacity='.5'/%3E%3Cg transform='translate(190 300) rotate(-8)'%3E%3Cellipse rx='34' ry='88' fill='%23f4c533'/%3E%3Cpath d='M-22 -50 h44 M-26 -20 h52 M-26 10 h52 M-24 40 h48' stroke='%23d9a516' stroke-width='3'/%3E%3Cpath d='M0 -80 V80 M-12 -76 V76 M12 -76 V76' stroke='%23d9a516' stroke-width='2' opacity='.6'/%3E%3Cpath d='M-34 30 C-60 -20 -40 -80 0 -92 C-14 -40 -18 10 -4 80Z' fill='%236fb15a'/%3E%3Cpath d='M34 30 C60 -20 40 -80 0 -92 C14 -40 18 10 4 80Z' fill='%2358a24a'/%3E%3C/g%3E%3Cg transform='translate(560 300) rotate(14) scale(1.15)'%3E%3Cpolygon points='-14,0 14,0 0,110' fill='%23f08a24'/%3E%3Cpath d='M-8 28 h10 M-3 52 h12 M-6 74 h8' stroke='%23c76a12' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M0 0 C-24 -30 -30 -50 -22 -66 C-8 -50 -2 -28 0 0Z M0 0 C0 -34 6 -60 0 -78 C10 -60 10 -30 0 0Z M0 0 C24 -30 30 -50 22 -66 C8 -50 2 -28 0 0Z' fill='%234f9a4f'/%3E%3C/g%3E%3Cg transform='translate(620 310) rotate(-8) scale(1.05)'%3E%3Cpolygon points='-14,0 14,0 0,110' fill='%23f08a24'/%3E%3Cpath d='M-8 28 h10 M-3 52 h12 M-6 74 h8' stroke='%23c76a12' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M0 0 C-24 -30 -30 -50 -22 -66 C-8 -50 -2 -28 0 0Z M0 0 C0 -34 6 -60 0 -78 C10 -60 10 -30 0 0Z M0 0 C24 -30 30 -50 22 -66 C8 -50 2 -28 0 0Z' fill='%234f9a4f'/%3E%3C/g%3E%3Cg transform='translate(670 320) rotate(22) scale(0.9)'%3E%3Cpolygon points='-14,0 14,0 0,110' fill='%23f08a24'/%3E%3Cpath d='M-8 28 h10 M-3 52 h12 M-6 74 h8' stroke='%23c76a12' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M0 0 C-24 -30 -30 -50 -22 -66 C-8 -50 -2 -28 0 0Z M0 0 C0 -34 6 -60 0 -78 C10 -60 10 -30 0 0Z M0 0 C24 -30 30 -50 22 -66 C8 -50 2 -28 0 0Z' fill='%234f9a4f'/%3E%3C/g%3E%3Cg transform='translate(250 400)'%3E%3Ccircle r='46' fill='%23e4482b'/%3E%3Cellipse cx='-16.099999999999998' cy='-18.400000000000002' rx='11.5' ry='6.8999999999999995' fill='%23fff' opacity='.35' transform='rotate(-30 -16.099999999999998 -18.400000000000002)'/%3E%3Cpath d='M0 -43.699999999999996 l-13.799999999999999 8.28 l4.6000000000000005 -2.3000000000000003 l-4.6000000000000005 13.799999999999999 l13.799999999999999 -9.200000000000001 l13.799999999999999 9.200000000000001 l-4.6000000000000005 -13.799999999999999 l4.6000000000000005 2.3000000000000003 l-13.799999999999999 -8.28Z' fill='%233f8a3c'/%3E%3C/g%3E%3Cg transform='translate(330 410)'%3E%3Ccircle r='50' fill='%23e4482b'/%3E%3Cellipse cx='-17.5' cy='-20.0' rx='12.5' ry='7.5' fill='%23fff' opacity='.35' transform='rotate(-30 -17.5 -20.0)'/%3E%3Cpath d='M0 -47.5 l-15.0 9.0 l5.0 -2.5 l-5.0 15.0 l15.0 -10.0 l15.0 10.0 l-5.0 -15.0 l5.0 2.5 l-15.0 -9.0Z' fill='%233f8a3c'/%3E%3C/g%3E%3Cg transform='translate(420 405)'%3E%3Ccircle r='48' fill='%23e4482b'/%3E%3Cellipse cx='-16.799999999999997' cy='-19.200000000000003' rx='12.0' ry='7.199999999999999' fill='%23fff' opacity='.35' transform='rotate(-30 -16.799999999999997 -19.200000000000003)'/%3E%3Cpath d='M0 -45.599999999999994 l-14.399999999999999 8.64 l4.800000000000001 -2.4000000000000004 l-4.800000000000001 14.399999999999999 l14.399999999999999 -9.600000000000001 l14.399999999999999 9.600000000000001 l-4.800000000000001 -14.399999999999999 l4.800000000000001 2.4000000000000004 l-14.399999999999999 -8.64Z' fill='%233f8a3c'/%3E%3C/g%3E%3Cg transform='translate(510 410)'%3E%3Ccircle r='46' fill='%23e4482b'/%3E%3Cellipse cx='-16.099999999999998' cy='-18.400000000000002' rx='11.5' ry='6.8999999999999995' fill='%23fff' opacity='.35' transform='rotate(-30 -16.099999999999998 -18.400000000000002)'/%3E%3Cpath d='M0 -43.699999999999996 l-13.799999999999999 8.28 l4.6000000000000005 -2.3000000000000003 l-4.6000000000000005 13.799999999999999 l13.799999999999999 -9.200000000000001 l13.799999999999999 9.200000000000001 l-4.6000000000000005 -13.799999999999999 l4.6000000000000005 2.3000000000000003 l-13.799999999999999 -8.28Z' fill='%233f8a3c'/%3E%3C/g%3E%3Cg transform='translate(590 420)'%3E%3Ccircle r='42' fill='%23e4482b'/%3E%3Cellipse cx='-14.7' cy='-16.8' rx='10.5' ry='6.3' fill='%23fff' opacity='.35' transform='rotate(-30 -14.7 -16.8)'/%3E%3Cpath d='M0 -39.9 l-12.6 7.56 l4.2 -2.1 l-4.2 12.6 l12.6 -8.4 l12.6 8.4 l-4.2 -12.6 l4.2 2.1 l-12.6 -7.56Z' fill='%233f8a3c'/%3E%3C/g%3E%3Cg transform='translate(290 440)'%3E%3Ccircle r='44' fill='%23d93a1f'/%3E%3Cellipse cx='-15.399999999999999' cy='-17.6' rx='11.0' ry='6.6' fill='%23fff' opacity='.35' transform='rotate(-30 -15.399999999999999 -17.6)'/%3E%3Cpath d='M0 -41.8 l-13.2 7.92 l4.4 -2.2 l-4.4 13.2 l13.2 -8.8 l13.2 8.8 l-4.4 -13.2 l4.4 2.2 l-13.2 -7.92Z' fill='%233f8a3c'/%3E%3C/g%3E%3Cg transform='translate(375 445)'%3E%3Ccircle r='46' fill='%23ee5a36'/%3E%3Cellipse cx='-16.099999999999998' cy='-18.400000000000002' rx='11.5' ry='6.8999999999999995' fill='%23fff' opacity='.35' transform='rotate(-30 -16.099999999999998 -18.400000000000002)'/%3E%3Cpath d='M0 -43.699999999999996 l-13.799999999999999 8.28 l4.6000000000000005 -2.3000000000000003 l-4.6000000000000005 13.799999999999999 l13.799999999999999 -9.200000000000001 l13.799999999999999 9.200000000000001 l-4.6000000000000005 -13.799999999999999 l4.6000000000000005 2.3000000000000003 l-13.799999999999999 -8.28Z' fill='%233f8a3c'/%3E%3C/g%3E%3Cg transform='translate(465 445)'%3E%3Ccircle r='44' fill='%23d93a1f'/%3E%3Cellipse cx='-15.399999999999999' cy='-17.6' rx='11.0' ry='6.6' fill='%23fff' opacity='.35' transform='rotate(-30 -15.399999999999999 -17.6)'/%3E%3Cpath d='M0 -41.8 l-13.2 7.92 l4.4 -2.2 l-4.4 13.2 l13.2 -8.8 l13.2 8.8 l-4.4 -13.2 l4.4 2.2 l-13.2 -7.92Z' fill='%233f8a3c'/%3E%3C/g%3E%3Cg transform='translate(548 450)'%3E%3Ccircle r='40' fill='%23ee5a36'/%3E%3Cellipse cx='-14.0' cy='-16.0' rx='10.0' ry='6.0' fill='%23fff' opacity='.35' transform='rotate(-30 -14.0 -16.0)'/%3E%3Cpath d='M0 -38.0 l-12.0 7.199999999999999 l4.0 -2.0 l-4.0 12.0 l12.0 -8.0 l12.0 8.0 l-4.0 -12.0 l4.0 2.0 l-12.0 -7.199999999999999Z' fill='%233f8a3c'/%3E%3C/g%3E%3Crect x='110' y='455' width='580' height='130' rx='12' fill='%23b07a45'/%3E%3Crect x='110' y='455' width='580' height='24' rx='10' fill='%23c88b52'/%3E%3Cg stroke='%238d5e33' stroke-width='3'%3E%3Cpath d='M112 505 H688 M112 540 H688'/%3E%3C/g%3E%3Cg fill='%238d5e33'%3E%3Ccircle cx='140' cy='467' r='3'/%3E%3Ccircle cx='660' cy='467' r='3'/%3E%3Ccircle cx='140' cy='520' r='3'/%3E%3Ccircle cx='660' cy='520' r='3'/%3E%3C/g%3E%3Cellipse cx='400' cy='592' rx='320' ry='12' fill='%23000' opacity='.1'/%3E%3C/svg%3E");
+      --ill-farmer: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%238fd0ee'/%3E%3Cstop offset='1' stop-color='%23eaf6e1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23sky)'/%3E%3Ccircle cx='610' cy='130' r='110.39999999999999' fill='%23ffe08a' opacity='.18'/%3E%3Ccircle cx='610' cy='130' r='73.60000000000001' fill='%23ffe08a' opacity='.28'/%3E%3Ccircle cx='610' cy='130' r='46' fill='%23ffe08a'/%3E%3Cg transform='translate(150 110) scale(1.1)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(360 70) scale(0.7)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(700 220) scale(0.8)' fill='%23fff' opacity='0.75'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cpath d='M0 330 C150 270 280 300 400 320 C520 340 650 270 800 310 L800 600 L0 600Z' fill='%23a5d28f'/%3E%3Cpath d='M0 385 C120 335 260 365 380 385 C520 405 660 345 800 375 L800 600 L0 600Z' fill='%2372b261'/%3E%3Cg transform='translate(630 372) scale(0.55)'%3E%3Crect x='-60' y='-50' width='120' height='72' fill='%23b8433a'/%3E%3Cpolygon points='-70,-50 0,-104 70,-50' fill='%238f2f2a'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='%23f4e9d8'/%3E%3Cpath d='M-22 -14 L22 22 M22 -14 L-22 22' stroke='%23b8433a' stroke-width='4'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='none' stroke='%23b8433a' stroke-width='4'/%3E%3Ccircle cy='-64' r='8' fill='%23f4e9d8'/%3E%3C/g%3E%3Cg transform='translate(110 392) scale(0.6)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%233f7d46'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%233f7d46'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%233f7d46'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Cg transform='translate(185 402) scale(0.42)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%234a8c4c'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%234a8c4c'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%234a8c4c'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Crect y='430' width='800' height='170' fill='%234f9a4f'/%3E%3Cpolygon points='292,430 310,430 -450,600 -620,600' fill='%234f9a4f'/%3E%3Cpolygon points='310,430 328,430 -280,600 -450,600' fill='%235fa856'/%3E%3Cpolygon points='328,430 346,430 -110,600 -280,600' fill='%234f9a4f'/%3E%3Cpolygon points='346,430 364,430 60,600 -110,600' fill='%235fa856'/%3E%3Cpolygon points='364,430 382,430 230,600 60,600' fill='%234f9a4f'/%3E%3Cpolygon points='382,430 400,430 400,600 230,600' fill='%235fa856'/%3E%3Cpolygon points='400,430 418,430 570,600 400,600' fill='%234f9a4f'/%3E%3Cpolygon points='418,430 436,430 740,600 570,600' fill='%235fa856'/%3E%3Cpolygon points='436,430 454,430 910,600 740,600' fill='%234f9a4f'/%3E%3Cpolygon points='454,430 472,430 1080,600 910,600' fill='%235fa856'/%3E%3Cpolygon points='472,430 490,430 1250,600 1080,600' fill='%234f9a4f'/%3E%3Cpolygon points='490,430 508,430 1420,600 1250,600' fill='%235fa856'/%3E%3Cpath d='M0 436 C150 414 300 440 450 424 C600 410 700 434 800 420 L800 452 L0 452Z' fill='%2372b261'/%3E%3Cg transform='translate(650 392) scale(1.1)'%3E%3Crect x='-60' y='-50' width='120' height='72' fill='%23b8433a'/%3E%3Cpolygon points='-70,-50 0,-104 70,-50' fill='%238f2f2a'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='%23f4e9d8'/%3E%3Cpath d='M-22 -14 L22 22 M22 -14 L-22 22' stroke='%23b8433a' stroke-width='4'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='none' stroke='%23b8433a' stroke-width='4'/%3E%3Ccircle cy='-64' r='8' fill='%23f4e9d8'/%3E%3C/g%3E%3Cpath d='M-10 600 Q-11.0 583.2 -12 572 Q-8 586.0 -1 600 M5 600 Q8.0 571.2 11 552 Q15 576.0 14 600 M20 600 Q18.5 576.6 17 561 Q21 580.5 29 600 M35 600 Q37.5 582.0 40 570 Q44 585.0 44 600 M50 600 Q48.0 570.0 46 550 Q50 575.0 59 600 M65 600 Q67.0 575.4 69 559 Q73 579.5 74 600 M80 600 Q77.5 580.8 75 568 Q79 584.0 89 600 M95 600 Q96.5 586.2 98 577 Q102 588.5 104 600 M110 600 Q107.0 574.2 104 557 Q108 578.5 119 600 M125 600 Q126.0 579.6 127 566 Q131 583.0 134 600 M140 600 Q136.5 585.0 133 575 Q137 587.5 149 600 M155 600 Q155.5 573.0 156 555 Q160 577.5 164 600 M170 600 Q166.0 578.4 162 564 Q166 582.0 179 600 M185 600 Q185.0 583.8 185 573 Q189 586.5 194 600 M200 600 Q204.0 571.8 208 553 Q212 576.5 209 600 M215 600 Q214.5 577.2 214 562 Q218 581.0 224 600 M230 600 Q233.5 582.6 237 571 Q241 585.5 239 600 M245 600 Q244.0 570.6 243 551 Q247 575.5 254 600 M260 600 Q263.0 576.0 266 560 Q270 580.0 269 600 M275 600 Q273.5 581.4 272 569 Q276 584.5 284 600 M290 600 Q292.5 586.8 295 578 Q299 589.0 299 600 M305 600 Q303.0 574.8 301 558 Q305 579.0 314 600 M320 600 Q322.0 580.2 324 567 Q328 583.5 329 600 M335 600 Q332.5 585.6 330 576 Q334 588.0 344 600 M350 600 Q351.5 573.6 353 556 Q357 578.0 359 600 M365 600 Q362.0 579.0 359 565 Q363 582.5 374 600 M380 600 Q381.0 584.4 382 574 Q386 587.0 389 600 M395 600 Q391.5 572.4 388 554 Q392 577.0 404 600 M410 600 Q410.5 577.8 411 563 Q415 581.5 419 600 M425 600 Q421.0 583.2 417 572 Q421 586.0 434 600 M440 600 Q440.0 571.2 440 552 Q444 576.0 449 600 M455 600 Q459.0 576.6 463 561 Q467 580.5 464 600 M470 600 Q469.5 582.0 469 570 Q473 585.0 479 600 M485 600 Q488.5 570.0 492 550 Q496 575.0 494 600 M500 600 Q499.0 575.4 498 559 Q502 579.5 509 600 M515 600 Q518.0 580.8 521 568 Q525 584.0 524 600 M530 600 Q528.5 586.2 527 577 Q531 588.5 539 600 M545 600 Q547.5 574.2 550 557 Q554 578.5 554 600 M560 600 Q558.0 579.6 556 566 Q560 583.0 569 600 M575 600 Q577.0 585.0 579 575 Q583 587.5 584 600 M590 600 Q587.5 573.0 585 555 Q589 577.5 599 600 M605 600 Q606.5 578.4 608 564 Q612 582.0 614 600 M620 600 Q617.0 583.8 614 573 Q618 586.5 629 600 M635 600 Q636.0 571.8 637 553 Q641 576.5 644 600 M650 600 Q646.5 577.2 643 562 Q647 581.0 659 600 M665 600 Q665.5 582.6 666 571 Q670 585.5 674 600 M680 600 Q676.0 570.6 672 551 Q676 575.5 689 600 M695 600 Q695.0 576.0 695 560 Q699 580.0 704 600 M710 600 Q714.0 581.4 718 569 Q722 584.5 719 600 M725 600 Q724.5 586.8 724 578 Q728 589.0 734 600 M740 600 Q743.5 574.8 747 558 Q751 579.0 749 600 M755 600 Q754.0 580.2 753 567 Q757 583.5 764 600 M770 600 Q773.0 585.6 776 576 Q780 588.0 779 600 M785 600 Q783.5 573.6 782 556 Q786 578.0 794 600 M800 600 Q802.5 579.0 805 565 Q809 582.5 809 600 M815 600 Q813.0 584.4 811 574 Q815 587.0 824 600 Z' fill='%233a7f40'/%3E%3Cellipse cx='300' cy='566' rx='90' ry='14' fill='%23000' opacity='.15'/%3E%3Cg transform='translate(300 560) scale(1.75)'%3E%3Cpath d='M62 -132 L88 4' stroke='%237a5233' stroke-width='7' stroke-linecap='round'/%3E%3Cpolygon points='72,-6 106,-2 102,10 78,10' fill='%236b7280'/%3E%3Crect x='-24' y='-56' width='20' height='58' fill='%232f5f9e'/%3E%3Crect x='4' y='-56' width='20' height='58' fill='%232f5f9e'/%3E%3Cellipse cx='-14' cy='3' rx='16' ry='7' fill='%235a3a22'/%3E%3Cellipse cx='14' cy='3' rx='16' ry='7' fill='%235a3a22'/%3E%3Crect x='-36' y='-134' width='72' height='92' rx='18' fill='%23e0583a'/%3E%3Crect x='-22' y='-104' width='44' height='58' rx='6' fill='%232f5f9e'/%3E%3Cpath d='M-18 -104 L-24 -132 M18 -104 L24 -132' stroke='%232f5f9e' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='-9' cy='-84' r='3' fill='%23e8c26a'/%3E%3Ccircle cx='9' cy='-84' r='3' fill='%23e8c26a'/%3E%3Cpath d='M-34 -118 L-64 -76' stroke='%23e0583a' stroke-width='17' stroke-linecap='round'/%3E%3Cpath d='M34 -118 L62 -104' stroke='%23e0583a' stroke-width='17' stroke-linecap='round'/%3E%3Ccircle cx='-64' cy='-72' r='9' fill='%23f0c39a'/%3E%3Ccircle cx='64' cy='-104' r='9' fill='%23f0c39a'/%3E%3Ccircle cx='0' cy='-158' r='25' fill='%23f0c39a'/%3E%3Ccircle cx='-9' cy='-156' r='2.8' fill='%232a1a10'/%3E%3Ccircle cx='9' cy='-156' r='2.8' fill='%232a1a10'/%3E%3Cpath d='M-8 -146 Q0 -138 8 -146' stroke='%232a1a10' stroke-width='2.6' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='-16' cy='-148' r='4' fill='%23ff9d8a' opacity='.6'/%3E%3Ccircle cx='16' cy='-148' r='4' fill='%23ff9d8a' opacity='.6'/%3E%3Cellipse cx='0' cy='-172' rx='54' ry='11' fill='%23e8c26a'/%3E%3Cpath d='M-29 -174 C-29 -212 29 -212 29 -174Z' fill='%23e8c26a'/%3E%3Crect x='-29' y='-181' width='58' height='8' fill='%23b8433a'/%3E%3C/g%3E%3Cg transform='translate(80 530) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ffb347'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(730 540) scale(1.2)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ff7b9c'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3C/svg%3E");
+      --ill-tractor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23f6a96b'/%3E%3Cstop offset='1' stop-color='%23fde9b8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23sky)'/%3E%3Ccircle cx='610' cy='130' r='110.39999999999999' fill='%23fff1b0' opacity='.18'/%3E%3Ccircle cx='610' cy='130' r='73.60000000000001' fill='%23fff1b0' opacity='.28'/%3E%3Ccircle cx='610' cy='130' r='46' fill='%23fff1b0'/%3E%3Cg transform='translate(150 110) scale(1.1)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(360 70) scale(0.7)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(700 220) scale(0.8)' fill='%23fff' opacity='0.75'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cpath d='M0 330 C150 270 280 300 400 320 C520 340 650 270 800 310 L800 600 L0 600Z' fill='%23b9c77f'/%3E%3Cpath d='M0 385 C120 335 260 365 380 385 C520 405 660 345 800 375 L800 600 L0 600Z' fill='%238fb45d'/%3E%3Cg transform='translate(630 372) scale(0.55)'%3E%3Crect x='-60' y='-50' width='120' height='72' fill='%23b8433a'/%3E%3Cpolygon points='-70,-50 0,-104 70,-50' fill='%238f2f2a'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='%23f4e9d8'/%3E%3Cpath d='M-22 -14 L22 22 M22 -14 L-22 22' stroke='%23b8433a' stroke-width='4'/%3E%3Crect x='-22' y='-14' width='44' height='36' fill='none' stroke='%23b8433a' stroke-width='4'/%3E%3Ccircle cy='-64' r='8' fill='%23f4e9d8'/%3E%3C/g%3E%3Cg transform='translate(110 392) scale(0.6)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%233f7d46'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%233f7d46'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%233f7d46'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Cg transform='translate(185 402) scale(0.42)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%234a8c4c'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%234a8c4c'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%234a8c4c'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Crect y='430' width='800' height='170' fill='%236aa24f'/%3E%3Cpolygon points='292,430 310,430 -450,600 -620,600' fill='%236aa24f'/%3E%3Cpolygon points='310,430 328,430 -280,600 -450,600' fill='%2378ae56'/%3E%3Cpolygon points='328,430 346,430 -110,600 -280,600' fill='%236aa24f'/%3E%3Cpolygon points='346,430 364,430 60,600 -110,600' fill='%2378ae56'/%3E%3Cpolygon points='364,430 382,430 230,600 60,600' fill='%236aa24f'/%3E%3Cpolygon points='382,430 400,430 400,600 230,600' fill='%2378ae56'/%3E%3Cpolygon points='400,430 418,430 570,600 400,600' fill='%236aa24f'/%3E%3Cpolygon points='418,430 436,430 740,600 570,600' fill='%2378ae56'/%3E%3Cpolygon points='436,430 454,430 910,600 740,600' fill='%236aa24f'/%3E%3Cpolygon points='454,430 472,430 1080,600 910,600' fill='%2378ae56'/%3E%3Cpolygon points='472,430 490,430 1250,600 1080,600' fill='%236aa24f'/%3E%3Cpolygon points='490,430 508,430 1420,600 1250,600' fill='%2378ae56'/%3E%3Cpath d='M0 436 C150 414 300 440 450 424 C600 410 700 434 800 420 L800 452 L0 452Z' fill='%238fb45d'/%3E%3Cpath d='M300 600 C340 520 380 480 410 436 L450 436 C450 490 520 540 620 600Z' fill='%23d9b27a' opacity='.9'/%3E%3Cpath d='M-10 600 Q-11.0 582.0 -12 570 Q-8 585.0 -1 600 M5 600 Q8.0 571.8 11 553 Q15 576.5 14 600 M20 600 Q18.5 579.0 17 565 Q21 582.5 29 600 M35 600 Q37.5 586.2 40 577 Q44 588.5 44 600 M50 600 Q48.0 576.0 46 560 Q50 580.0 59 600 M65 600 Q67.0 583.2 69 572 Q73 586.0 74 600 M80 600 Q77.5 573.0 75 555 Q79 577.5 89 600 M95 600 Q96.5 580.2 98 567 Q102 583.5 104 600 M110 600 Q107.0 570.0 104 550 Q108 575.0 119 600 M125 600 Q126.0 577.2 127 562 Q131 581.0 134 600 M140 600 Q136.5 584.4 133 574 Q137 587.0 149 600 M155 600 Q155.5 574.2 156 557 Q160 578.5 164 600 M170 600 Q166.0 581.4 162 569 Q166 584.5 179 600 M185 600 Q185.0 571.2 185 552 Q189 576.0 194 600 M200 600 Q204.0 578.4 208 564 Q212 582.0 209 600 M215 600 Q214.5 585.6 214 576 Q218 588.0 224 600 M230 600 Q233.5 575.4 237 559 Q241 579.5 239 600 M245 600 Q244.0 582.6 243 571 Q247 585.5 254 600 M260 600 Q263.0 572.4 266 554 Q270 577.0 269 600 M275 600 Q273.5 579.6 272 566 Q276 583.0 284 600 M290 600 Q292.5 586.8 295 578 Q299 589.0 299 600 M305 600 Q303.0 576.6 301 561 Q305 580.5 314 600 M320 600 Q322.0 583.8 324 573 Q328 586.5 329 600 M335 600 Q332.5 573.6 330 556 Q334 578.0 344 600 M350 600 Q351.5 580.8 353 568 Q357 584.0 359 600 M365 600 Q362.0 570.6 359 551 Q363 575.5 374 600 M380 600 Q381.0 577.8 382 563 Q386 581.5 389 600 M395 600 Q391.5 585.0 388 575 Q392 587.5 404 600 M410 600 Q410.5 574.8 411 558 Q415 579.0 419 600 M425 600 Q421.0 582.0 417 570 Q421 585.0 434 600 M440 600 Q440.0 571.8 440 553 Q444 576.5 449 600 M455 600 Q459.0 579.0 463 565 Q467 582.5 464 600 M470 600 Q469.5 586.2 469 577 Q473 588.5 479 600 M485 600 Q488.5 576.0 492 560 Q496 580.0 494 600 M500 600 Q499.0 583.2 498 572 Q502 586.0 509 600 M515 600 Q518.0 573.0 521 555 Q525 577.5 524 600 M530 600 Q528.5 580.2 527 567 Q531 583.5 539 600 M545 600 Q547.5 570.0 550 550 Q554 575.0 554 600 M560 600 Q558.0 577.2 556 562 Q560 581.0 569 600 M575 600 Q577.0 584.4 579 574 Q583 587.0 584 600 M590 600 Q587.5 574.2 585 557 Q589 578.5 599 600 M605 600 Q606.5 581.4 608 569 Q612 584.5 614 600 M620 600 Q617.0 571.2 614 552 Q618 576.0 629 600 M635 600 Q636.0 578.4 637 564 Q641 582.0 644 600 M650 600 Q646.5 585.6 643 576 Q647 588.0 659 600 M665 600 Q665.5 575.4 666 559 Q670 579.5 674 600 M680 600 Q676.0 582.6 672 571 Q676 585.5 689 600 M695 600 Q695.0 572.4 695 554 Q699 577.0 704 600 M710 600 Q714.0 579.6 718 566 Q722 583.0 719 600 M725 600 Q724.5 586.8 724 578 Q728 589.0 734 600 M740 600 Q743.5 576.6 747 561 Q751 580.5 749 600 M755 600 Q754.0 583.8 753 573 Q757 586.5 764 600 M770 600 Q773.0 573.6 776 556 Q780 578.0 779 600 M785 600 Q783.5 580.8 782 568 Q786 584.0 794 600 M800 600 Q802.5 570.6 805 551 Q809 575.5 809 600 M815 600 Q813.0 577.8 811 563 Q815 581.5 824 600 Z' fill='%233a7f40'/%3E%3Cellipse cx='430' cy='568' rx='150' ry='16' fill='%23000' opacity='.18'/%3E%3Cg transform='translate(430 566) scale(1.45)'%3E%3Crect x='-70' y='-205' width='90' height='12' rx='4' fill='%23b53b1f'/%3E%3Crect x='-62' y='-195' width='6' height='70' fill='%23b53b1f'/%3E%3Crect x='6' y='-195' width='6' height='70' fill='%23b53b1f'/%3E%3Crect x='-56' y='-193' width='62' height='68' fill='%23d4ecf7' opacity='.85'/%3E%3Crect x='-72' y='-130' width='80' height='56' rx='6' fill='%23d94f2b'/%3E%3Crect x='-6' y='-135' width='118' height='60' rx='12' fill='%23e5603a'/%3E%3Crect x='-6' y='-100' width='118' height='8' fill='%23fff' opacity='.2'/%3E%3Crect x='86' y='-172' width='9' height='42' rx='3' fill='%23444'/%3E%3Cg fill='%23333'%3E%3Crect x='104' y='-125' width='10' height='38' rx='3'/%3E%3C/g%3E%3Ccircle cx='-38' cy='-52' r='62' fill='%232b2b2b'/%3E%3Ccircle cx='-38' cy='-52' r='40' fill='%233a3a3a'/%3E%3Ccircle cx='-38' cy='-52' r='22' fill='%23e8c26a'/%3E%3Ccircle cx='-38' cy='-52' r='7' fill='%23a97c1f'/%3E%3Ccircle cx='84' cy='-32' r='36' fill='%232b2b2b'/%3E%3Ccircle cx='84' cy='-32' r='22' fill='%233a3a3a'/%3E%3Ccircle cx='84' cy='-32' r='12' fill='%23e8c26a'/%3E%3Ccircle cx='-4' cy='-168' r='11' fill='%23f0c39a'/%3E%3Cpath d='M-20 -176 h32 M-14 -180 C-14 -194 6 -194 6 -180Z' stroke='%23e8c26a' stroke-width='3' fill='%23e8c26a'/%3E%3C/g%3E%3Cg transform='translate(70 525) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23fff'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(130 548) scale(0.9)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ff7b9c'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(735 528) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ffb347'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3C/svg%3E");
+      --ill-eco: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23d8efc8'/%3E%3Cstop offset='1' stop-color='%23f3f8d8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23bg)'/%3E%3Ccircle cx='690' cy='100' r='96.0' fill='%23ffe08a' opacity='.18'/%3E%3Ccircle cx='690' cy='100' r='64.0' fill='%23ffe08a' opacity='.28'/%3E%3Ccircle cx='690' cy='100' r='40' fill='%23ffe08a'/%3E%3Cg transform='translate(170 110) scale(0.9)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(480 70) scale(0.6)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cpath d='M0 430 C130 390 250 430 380 410 C520 392 660 436 800 400 L800 600 L0 600Z' fill='%239fd08a'/%3E%3Cg transform='translate(120 420) scale(1.25)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%233f7d46'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%233f7d46'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%233f7d46'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Cg transform='translate(690 430) scale(1.05)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%234a8c4c'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%234a8c4c'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%234a8c4c'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Cpath d='M0 480 C140 450 280 490 420 470 C560 452 680 490 800 462 L800 600 L0 600Z' fill='%236fb15a'/%3E%3Cpath d='M-10 600 Q-11.0 571.2 -12 552 Q-8 576.0 -1 600 M3 600 Q1.5 570.6 0 551 Q4 575.5 12 600 M16 600 Q14.0 570.0 12 550 Q16 575.0 25 600 M29 600 Q26.5 586.8 24 578 Q28 589.0 38 600 M42 600 Q39.0 586.2 36 577 Q40 588.5 51 600 M55 600 Q51.5 585.6 48 576 Q52 588.0 64 600 M68 600 Q64.0 585.0 60 575 Q64 587.5 77 600 M81 600 Q85.0 584.4 89 574 Q93 587.0 90 600 M94 600 Q97.5 583.8 101 573 Q105 586.5 103 600 M107 600 Q110.0 583.2 113 572 Q117 586.0 116 600 M120 600 Q122.5 582.6 125 571 Q129 585.5 129 600 M133 600 Q135.0 582.0 137 570 Q141 585.0 142 600 M146 600 Q147.5 581.4 149 569 Q153 584.5 155 600 M159 600 Q160.0 580.8 161 568 Q165 584.0 168 600 M172 600 Q172.5 580.2 173 567 Q177 583.5 181 600 M185 600 Q185.0 579.6 185 566 Q189 583.0 194 600 M198 600 Q197.5 579.0 197 565 Q201 582.5 207 600 M211 600 Q210.0 578.4 209 564 Q213 582.0 220 600 M224 600 Q222.5 577.8 221 563 Q225 581.5 233 600 M237 600 Q235.0 577.2 233 562 Q237 581.0 246 600 M250 600 Q247.5 576.6 245 561 Q249 580.5 259 600 M263 600 Q260.0 576.0 257 560 Q261 580.0 272 600 M276 600 Q272.5 575.4 269 559 Q273 579.5 285 600 M289 600 Q285.0 574.8 281 558 Q285 579.0 298 600 M302 600 Q306.0 574.2 310 557 Q314 578.5 311 600 M315 600 Q318.5 573.6 322 556 Q326 578.0 324 600 M328 600 Q331.0 573.0 334 555 Q338 577.5 337 600 M341 600 Q343.5 572.4 346 554 Q350 577.0 350 600 M354 600 Q356.0 571.8 358 553 Q362 576.5 363 600 M367 600 Q368.5 571.2 370 552 Q374 576.0 376 600 M380 600 Q381.0 570.6 382 551 Q386 575.5 389 600 M393 600 Q393.5 570.0 394 550 Q398 575.0 402 600 M406 600 Q406.0 586.8 406 578 Q410 589.0 415 600 M419 600 Q418.5 586.2 418 577 Q422 588.5 428 600 M432 600 Q431.0 585.6 430 576 Q434 588.0 441 600 M445 600 Q443.5 585.0 442 575 Q446 587.5 454 600 M458 600 Q456.0 584.4 454 574 Q458 587.0 467 600 M471 600 Q468.5 583.8 466 573 Q470 586.5 480 600 M484 600 Q481.0 583.2 478 572 Q482 586.0 493 600 M497 600 Q493.5 582.6 490 571 Q494 585.5 506 600 M510 600 Q506.0 582.0 502 570 Q506 585.0 519 600 M523 600 Q527.0 581.4 531 569 Q535 584.5 532 600 M536 600 Q539.5 580.8 543 568 Q547 584.0 545 600 M549 600 Q552.0 580.2 555 567 Q559 583.5 558 600 M562 600 Q564.5 579.6 567 566 Q571 583.0 571 600 M575 600 Q577.0 579.0 579 565 Q583 582.5 584 600 M588 600 Q589.5 578.4 591 564 Q595 582.0 597 600 M601 600 Q602.0 577.8 603 563 Q607 581.5 610 600 M614 600 Q614.5 577.2 615 562 Q619 581.0 623 600 M627 600 Q627.0 576.6 627 561 Q631 580.5 636 600 M640 600 Q639.5 576.0 639 560 Q643 580.0 649 600 M653 600 Q652.0 575.4 651 559 Q655 579.5 662 600 M666 600 Q664.5 574.8 663 558 Q667 579.0 675 600 M679 600 Q677.0 574.2 675 557 Q679 578.5 688 600 M692 600 Q689.5 573.6 687 556 Q691 578.0 701 600 M705 600 Q702.0 573.0 699 555 Q703 577.5 714 600 M718 600 Q714.5 572.4 711 554 Q715 577.0 727 600 M731 600 Q727.0 571.8 723 553 Q727 576.5 740 600 M744 600 Q748.0 571.2 752 552 Q756 576.0 753 600 M757 600 Q760.5 570.6 764 551 Q768 575.5 766 600 M770 600 Q773.0 570.0 776 550 Q780 575.0 779 600 M783 600 Q785.5 586.8 788 578 Q792 589.0 792 600 M796 600 Q798.0 586.2 800 577 Q804 588.5 805 600 M809 600 Q810.5 585.6 812 576 Q816 588.0 818 600 Z' fill='%233a7f40'/%3E%3Cg transform='translate(60 505) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ff7b9c'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(145 519) scale(1.0)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23fff'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(230 533) scale(0.9000000000000001)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ffb347'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(315 505) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23b58bf0'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(400 519) scale(1.0)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ff7b9c'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(485 533) scale(0.9000000000000001)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23fff'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(570 505) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ffb347'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(655 519) scale(1.0)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23b58bf0'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(740 533) scale(0.9000000000000001)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ff7b9c'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(300 250) rotate(-12) scale(1.4)'%3E%3Cg fill='%23ff9f43'%3E%3Cellipse cx='-22' cy='-12' rx='24' ry='17' transform='rotate(-20 -22 -12)'/%3E%3Cellipse cx='22' cy='-12' rx='24' ry='17' transform='rotate(20 22 -12)'/%3E%3C/g%3E%3Cg fill='%23ffd166'%3E%3Cellipse cx='-16' cy='12' rx='16' ry='12' transform='rotate(20 -16 12)'/%3E%3Cellipse cx='16' cy='12' rx='16' ry='12' transform='rotate(-20 16 12)'/%3E%3C/g%3E%3Ccircle cx='-26' cy='-14' r='5' fill='%23fff' opacity='.6'/%3E%3Ccircle cx='26' cy='-14' r='5' fill='%23fff' opacity='.6'/%3E%3Cellipse rx='4' ry='20' fill='%233a2a22'/%3E%3Cpath d='M-1 -18 q-8 -14 -14 -16 M1 -18 q8 -14 14 -16' stroke='%233a2a22' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/g%3E%3Cg transform='translate(540 330) rotate(14) scale(1.0)'%3E%3Cg fill='%236c9bff'%3E%3Cellipse cx='-22' cy='-12' rx='24' ry='17' transform='rotate(-20 -22 -12)'/%3E%3Cellipse cx='22' cy='-12' rx='24' ry='17' transform='rotate(20 22 -12)'/%3E%3C/g%3E%3Cg fill='%23b9d0ff'%3E%3Cellipse cx='-16' cy='12' rx='16' ry='12' transform='rotate(20 -16 12)'/%3E%3Cellipse cx='16' cy='12' rx='16' ry='12' transform='rotate(-20 16 12)'/%3E%3C/g%3E%3Ccircle cx='-26' cy='-14' r='5' fill='%23fff' opacity='.6'/%3E%3Ccircle cx='26' cy='-14' r='5' fill='%23fff' opacity='.6'/%3E%3Cellipse rx='4' ry='20' fill='%233a2a22'/%3E%3Cpath d='M-1 -18 q-8 -14 -14 -16 M1 -18 q8 -14 14 -16' stroke='%233a2a22' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/g%3E%3Cg transform='translate(180 360) rotate(-20) scale(0.8)'%3E%3Cg fill='%23ff7b9c'%3E%3Cellipse cx='-22' cy='-12' rx='24' ry='17' transform='rotate(-20 -22 -12)'/%3E%3Cellipse cx='22' cy='-12' rx='24' ry='17' transform='rotate(20 22 -12)'/%3E%3C/g%3E%3Cg fill='%23ffc2d1'%3E%3Cellipse cx='-16' cy='12' rx='16' ry='12' transform='rotate(20 -16 12)'/%3E%3Cellipse cx='16' cy='12' rx='16' ry='12' transform='rotate(-20 16 12)'/%3E%3C/g%3E%3Ccircle cx='-26' cy='-14' r='5' fill='%23fff' opacity='.6'/%3E%3Ccircle cx='26' cy='-14' r='5' fill='%23fff' opacity='.6'/%3E%3Cellipse rx='4' ry='20' fill='%233a2a22'/%3E%3Cpath d='M-1 -18 q-8 -14 -14 -16 M1 -18 q8 -14 14 -16' stroke='%233a2a22' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/g%3E%3Cg transform='translate(620 230) scale(1.3)'%3E%3Cellipse cx='-6' cy='-16' rx='14' ry='9' fill='%23cfe9f5' opacity='.85' transform='rotate(-25 -6 -16)'/%3E%3Cellipse cx='8' cy='-17' rx='14' ry='9' fill='%23cfe9f5' opacity='.85' transform='rotate(20 8 -17)'/%3E%3Cellipse rx='24' ry='16' fill='%23f7c531'/%3E%3Cpath d='M-8 -15 V15 M6 -15 V15' stroke='%233a2a22' stroke-width='6'/%3E%3Ccircle cx='-24' cy='-2' r='3' fill='%233a2a22'/%3E%3C/g%3E%3Cg transform='translate(420 400) scale(0.8)'%3E%3Cellipse cx='-6' cy='-16' rx='14' ry='9' fill='%23cfe9f5' opacity='.85' transform='rotate(-25 -6 -16)'/%3E%3Cellipse cx='8' cy='-17' rx='14' ry='9' fill='%23cfe9f5' opacity='.85' transform='rotate(20 8 -17)'/%3E%3Cellipse rx='24' ry='16' fill='%23f7c531'/%3E%3Cpath d='M-8 -15 V15 M6 -15 V15' stroke='%233a2a22' stroke-width='6'/%3E%3Ccircle cx='-24' cy='-2' r='3' fill='%233a2a22'/%3E%3C/g%3E%3Cg transform='translate(700 520)'%3E%3Cellipse rx='20' ry='15' fill='%23e4482b'/%3E%3Cpath d='M0 -15 V15' stroke='%232a1a10' stroke-width='2'/%3E%3Ccircle cx='-8' cy='-3' r='3' fill='%232a1a10'/%3E%3Ccircle cx='8' cy='-3' r='3' fill='%232a1a10'/%3E%3Ccircle cx='-9' cy='7' r='3' fill='%232a1a10'/%3E%3Ccircle cx='9' cy='7' r='3' fill='%232a1a10'/%3E%3Ccircle cx='0' cy='-18' r='7' fill='%232a1a10'/%3E%3C/g%3E%3C/svg%3E");
+      --ill-picnic: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%239ad7f0'/%3E%3Cstop offset='1' stop-color='%23f1f8e2'/%3E%3C/linearGradient%3E%3Cpattern id='chk' width='56' height='56' patternUnits='userSpaceOnUse'%3E%3Crect width='56' height='56' fill='%23fff'/%3E%3Crect width='28' height='28' fill='%23e4482b' opacity='.85'/%3E%3Crect x='28' y='28' width='28' height='28' fill='%23e4482b' opacity='.85'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23sky)'/%3E%3Ccircle cx='640' cy='120' r='100.8' fill='%23ffe08a' opacity='.18'/%3E%3Ccircle cx='640' cy='120' r='67.2' fill='%23ffe08a' opacity='.28'/%3E%3Ccircle cx='640' cy='120' r='42' fill='%23ffe08a'/%3E%3Cg transform='translate(170 100) scale(1)' fill='%23fff' opacity='0.92'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cg transform='translate(430 150) scale(0.7)' fill='%23fff' opacity='0.8'%3E%3Cellipse rx='60' ry='22'/%3E%3Cellipse cx='-30' cy='-14' rx='32' ry='22'/%3E%3Cellipse cx='15' cy='-24' rx='38' ry='26'/%3E%3Cellipse cx='45' cy='-6' rx='28' ry='18'/%3E%3C/g%3E%3Cpath d='M0 340 C150 295 300 330 430 320 C560 310 680 290 800 330 L800 600 L0 600Z' fill='%23a5d28f'/%3E%3Cpath d='M0 400 C140 365 300 395 440 385 C580 375 700 365 800 395 L800 600 L0 600Z' fill='%2372b261'/%3E%3Crect y='450' width='800' height='150' fill='%235fa856'/%3E%3Cpath d='M0 456 C150 436 300 462 450 446 C600 432 700 456 800 442 L800 470 L0 470Z' fill='%2372b261'/%3E%3Cg transform='translate(160 470) scale(2.4)'%3E%3Crect x='-7' y='-10' width='14' height='64' rx='5' fill='%237a5233'/%3E%3Ccircle cy='-42' r='44' fill='%233f7d46'/%3E%3Ccircle cx='-32' cy='-18' r='30' fill='%233f7d46'/%3E%3Ccircle cx='32' cy='-20' r='31' fill='%233f7d46'/%3E%3Ccircle cx='-12' cy='-62' r='24' fill='%23fff' opacity='.09'/%3E%3C/g%3E%3Cpolygon points='290,470 690,470 750,575 220,575' fill='url(%23chk)'/%3E%3Cpolygon points='290,470 690,470 750,575 220,575' fill='none' stroke='%23c93a22' stroke-width='3' opacity='.4'/%3E%3Cg transform='translate(430 505)'%3E%3Cpath d='M-40 -30 C-40 -80 40 -80 40 -30' stroke='%23a8713b' stroke-width='9' fill='none' stroke-linecap='round'/%3E%3Crect x='-52' y='-34' width='104' height='62' rx='10' fill='%23c58b4e'/%3E%3Cpath d='M-52 -12 H52 M-52 8 H52 M-26 -34 V28 M0 -34 V28 M26 -34 V28' stroke='%23a8713b' stroke-width='3'/%3E%3Ccircle cx='-14' cy='-38' r='13' fill='%23e4482b'/%3E%3Ccircle cx='12' cy='-40' r='13' fill='%23f4c533'/%3E%3Ccircle cx='30' cy='-36' r='11' fill='%236fb15a'/%3E%3C/g%3E%3Cg transform='translate(590 520)'%3E%3Cpath d='M-42 0 A42 42 0 0 0 42 0Z' fill='%233f8a3c'/%3E%3Cpath d='M-36 0 A36 36 0 0 0 36 0Z' fill='%23e4483c'/%3E%3Cpath d='M-36 0 A36 36 0 0 0 36 0' stroke='%23f4f7e3' stroke-width='5' fill='none' transform='translate(0 -1) scale(1 1)' opacity='.9'/%3E%3Cg fill='%232a1a10'%3E%3Cellipse cx='-14' cy='14' rx='2.5' ry='4'/%3E%3Cellipse cx='4' cy='20' rx='2.5' ry='4'/%3E%3Cellipse cx='18' cy='12' rx='2.5' ry='4'/%3E%3C/g%3E%3C/g%3E%3Cg transform='translate(320 515)'%3E%3Crect x='-30' y='-20' width='60' height='40' rx='8' fill='%23333'/%3E%3Crect x='-18' y='-28' width='20' height='10' rx='3' fill='%23333'/%3E%3Ccircle r='13' fill='%239ad7f0' stroke='%23222' stroke-width='4'/%3E%3Ccircle cx='-4' cy='-4' r='4' fill='%23fff' opacity='.7'/%3E%3Ccircle cx='22' cy='-12' r='3' fill='%23e4482b'/%3E%3C/g%3E%3Cg transform='translate(60 520) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ff7b9c'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(760 530) scale(1.1)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23ffb347'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3Cg transform='translate(95 560) scale(0.8)'%3E%3Crect x='-1.8' y='0' width='3.6' height='50' rx='1.8' fill='%233f7d46'/%3E%3Cg fill='%23fff'%3E%3Ccircle cy='-10' r='9'/%3E%3Ccircle cx='10' r='9'/%3E%3Ccircle cy='10' r='9'/%3E%3Ccircle cx='-10' r='9'/%3E%3C/g%3E%3Ccircle r='6.5' fill='%23ffd45e'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: var(--ink); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .container { width: min(1140px, calc(100% - 40px)); margin-inline: auto; }
+    .topbar { background: var(--green-dark); color: #eaf4e7; font-size: .86rem; padding: 8px 0; }
+    .topbar .container { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    header { position: sticky; top: 0; z-index: 10; background: rgba(251,248,239,.94); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(36,92,59,.1); }
+    .nav { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: flex; align-items: center; gap: 11px; font-weight: 850; letter-spacing: -.5px; color: var(--green-dark); font-size: 1.18rem; }
+    .brand-mark { width: 43px; height: 43px; display: grid; place-items: center; border-radius: 15px; background: var(--green); color: white; font-size: 1.45rem; }
+    .brand small { display: block; font-size: .68rem; font-weight: 650; color: var(--muted); letter-spacing: .6px; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: 27px; font-size: .94rem; font-weight: 650; }
+    .nav-links a:hover { color: #679243; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 0; cursor: pointer; border-radius: 999px; padding: 13px 22px; font: inherit; font-weight: 750; transition: transform .2s, background .2s; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { color: white; background: var(--green); box-shadow: 0 8px 20px rgba(36,92,59,.2); }
+    .btn-primary:hover { background: var(--green-dark); }
+    .btn-light { background: white; color: var(--green-dark); }
+    .menu-toggle { display: none; border: 0; background: transparent; color: var(--green-dark); font-size: 1.7rem; cursor: pointer; }
+    .hero { position: relative; overflow: hidden; padding: 82px 0 88px; background: linear-gradient(110deg, rgba(20,54,35,.94), rgba(30,75,44,.72)), url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2000&q=85") center/cover, var(--ill-hills) center/cover; color: white; }
+    .hero::after { content: ""; position: absolute; width: 420px; height: 420px; border: 1px solid rgba(255,255,255,.16); border-radius: 50%; right: -120px; bottom: -240px; box-shadow: 0 0 0 45px rgba(255,255,255,.04), 0 0 0 90px rgba(255,255,255,.03); }
+    .hero-grid { display: grid; grid-template-columns: 1.12fr .88fr; gap: 55px; align-items: center; position: relative; z-index: 1; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: var(--lime); font-weight: 800; font-size: .82rem; text-transform: uppercase; letter-spacing: 1.6px; }
+    .eyebrow::before { content: ""; width: 28px; height: 2px; background: currentColor; }
+    h1 { font-size: clamp(2.65rem, 5vw, 4.6rem); line-height: 1.05; letter-spacing: -2.5px; margin: 20px 0; max-width: 680px; }
+    h1 span { color: var(--lime); }
+    .hero p { color: rgba(255,255,255,.83); font-size: 1.12rem; max-width: 570px; margin: 0 0 28px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 13px; }
+    .hero-note { margin-top: 28px; display: flex; gap: 15px; align-items: center; font-size: .9rem; color: rgba(255,255,255,.83); }
+    .avatar-stack { display: flex; padding-left: 4px; }
+    .avatar { width: 32px; height: 32px; border: 2px solid var(--green-dark); border-radius: 50%; margin-left: -5px; display: grid; place-items: center; background: #e5cda7; font-size: .8rem; }
+    .hero-card { border: 1px solid rgba(255,255,255,.24); border-radius: 28px; padding: 15px; background: rgba(255,255,255,.12); backdrop-filter: blur(8px); transform: rotate(2deg); }
+    .hero-photo { min-height: 390px; border-radius: 20px; background: url("https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1000&q=85") center/cover, var(--ill-hills) center/cover; position: relative; overflow: hidden; }
+    .photo-label { position: absolute; left: 18px; right: 18px; bottom: 18px; border-radius: 16px; padding: 16px 18px; background: rgba(255,255,255,.94); color: var(--ink); transform: rotate(-2deg); }
+    .photo-label strong { display: block; color: var(--green-dark); font-size: 1.02rem; }
+    .photo-label span { color: var(--muted); font-size: .86rem; }
+    .stats { background: white; box-shadow: var(--shadow); position: relative; z-index: 2; margin-top: -28px; border-radius: 20px; padding: 24px 32px; display: grid; grid-template-columns: repeat(4,1fr); gap: 18px; }
+    .stat { display: flex; align-items: center; justify-content: center; gap: 13px; border-right: 1px solid #e7ece5; }
+    .stat:last-child { border: 0; }
+    .stat-icon { width: 46px; height: 46px; border-radius: 15px; display: grid; place-items: center; background: var(--green-light); font-size: 1.4rem; }
+    .stat strong { display: block; font-size: 1.22rem; color: var(--green-dark); line-height: 1.25; }
+    .stat span { display: block; font-size: .8rem; color: var(--muted); }
+    section { padding: 88px 0; }
+    .section-head { max-width: 680px; margin-bottom: 38px; }
+    .section-kicker { color: #70964c; font-weight: 850; font-size: .78rem; text-transform: uppercase; letter-spacing: 1.6px; }
+    h2 { color: var(--green-dark); font-size: clamp(2rem, 3.5vw, 3.1rem); line-height: 1.15; letter-spacing: -1.2px; margin: 10px 0 14px; }
+    .section-head p { color: var(--muted); margin: 0; font-size: 1.02rem; }
+    .about-grid { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 65px; }
+    .about-image { min-height: 440px; border-radius: 28px; background: url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1100&q=85") center/cover, var(--ill-farmer) left center/cover; position: relative; }
+    .floating-note { position: absolute; right: -25px; bottom: 25px; max-width: 225px; padding: 19px; border-radius: 18px; background: var(--lime); color: var(--green-dark); box-shadow: var(--shadow); font-weight: 750; }
+    .floating-note span { display: block; font-size: 1.7rem; }
+    .about-copy p { color: var(--muted); }
+    .check-list { list-style: none; padding: 0; margin: 24px 0 30px; display: grid; gap: 13px; }
+    .check-list li { display: flex; gap: 11px; align-items: flex-start; font-weight: 650; }
+    .check-list li span { color: #6e9947; font-size: 1.15rem; }
+    .activities { background: #f0f4e9; }
+    .cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
+    .activity-card { background: white; border-radius: var(--radius); overflow: hidden; box-shadow: 0 8px 25px rgba(31,64,41,.06); transition: transform .25s, box-shadow .25s; }
+    .activity-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+    .activity-img { background-color: #cfe5b4; height: 220px; background-size: cover; background-position: center, center bottom; position: relative; }
+    .activity-img .emoji { position: absolute; left: 17px; bottom: -20px; width: 48px; height: 48px; display: grid; place-items: center; border-radius: 15px; background: var(--lime); font-size: 1.45rem; border: 4px solid white; }
+    .activity-content { padding: 30px 23px 24px; }
+    .activity-content h3 { color: var(--green-dark); margin: 0 0 9px; font-size: 1.2rem; }
+    .activity-content p { color: var(--muted); font-size: .94rem; margin: 0 0 17px; }
+    .learn-more { color: #5d853d; font-weight: 800; font-size: .9rem; }
+    .experience-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; align-items: center; }
+    .experience-visual { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .experience-visual div { align-self: start; min-height: 205px; border-radius: 20px; background-size: cover; background-position: center; }
+    .experience-visual div:first-child { margin-top: 30px; background-image: url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=700&q=80"), var(--ill-plant); }
+    .experience-visual div:nth-child(2) { background-image: url("https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=700&q=80"), var(--ill-harvest); }
+    .experience-visual div:nth-child(3) { background-image: url("https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80"), var(--ill-eco); }
+    .experience-visual div:nth-child(4) { margin-top: -30px; background-image: url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=700&q=80"), var(--ill-picnic); }
+    .benefits { display: grid; gap: 20px; margin-top: 28px; }
+    .benefit { display: flex; gap: 15px; }
+    .benefit-icon { flex: 0 0 48px; height: 48px; border-radius: 15px; display: grid; place-items: center; background: var(--green-light); font-size: 1.3rem; }
+    .benefit h3 { margin: 0 0 4px; font-size: 1.02rem; color: var(--green-dark); }
+    .benefit p { margin: 0; color: var(--muted); font-size: .91rem; }
+    .visit { padding-top: 20px; }
+    .visit-panel { display: grid; grid-template-columns: 1fr .9fr; border-radius: 28px; overflow: hidden; background: var(--green-dark); color: white; }
+    .visit-copy { padding: 48px; }
+    .visit-copy h2 { color: white; }
+    .visit-copy p { color: rgba(255,255,255,.76); }
+    .visit-details { display: grid; gap: 18px; margin: 26px 0; }
+    .visit-detail { display: flex; align-items: flex-start; gap: 13px; }
+    .visit-detail b { display: block; }
+    .visit-detail span { color: rgba(255,255,255,.7); font-size: .91rem; }
+    .visit-image { min-height: 430px; background: url("https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&w=1100&q=85") center/cover, var(--ill-sunset) center/cover; }
+    .contact { background: #f0f4e9; }
+    .contact-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 55px; align-items: start; }
+    .contact-info p { color: var(--muted); }
+    .contact-item { display: flex; gap: 13px; margin-top: 22px; align-items: flex-start; }
+    .contact-item .icon { width: 43px; height: 43px; border-radius: 14px; display: grid; place-items: center; background: white; font-size: 1.2rem; flex-shrink: 0; }
+    .contact-item b { display: block; color: var(--green-dark); }
+    .contact-item span { color: var(--muted); font-size: .92rem; }
+    form { padding: 30px; background: white; border-radius: 22px; box-shadow: 0 12px 32px rgba(31,64,41,.07); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+    label { display: block; font-size: .88rem; font-weight: 750; color: var(--green-dark); margin-bottom: 7px; }
+    input, select, textarea { width: 100%; padding: 13px 14px; border: 1px solid #dfe7dc; background: #fcfdf9; border-radius: 11px; font: inherit; color: var(--ink); outline: none; margin-bottom: 17px; }
+    input:focus, select:focus, textarea:focus { border-color: #78a45a; box-shadow: 0 0 0 3px rgba(120,164,90,.14); }
+    textarea { resize: vertical; min-height: 105px; }
+    .form-hint { color: var(--muted); font-size: .8rem; margin: 12px 0 0; }
+    footer { padding: 30px 0; background: #123421; color: rgba(255,255,255,.75); font-size: .88rem; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    footer .brand { color: white; }
+    footer .brand small { color: rgba(255,255,255,.6); }
+    .socials { display: flex; gap: 17px; }
+    .socials a:hover { color: var(--lime); }
+
+    .gallery { background: var(--cream); }
+    .gallery-grid { display: grid; grid-template-columns: 1.2fr .8fr .8fr; grid-template-rows: 220px 220px; gap: 15px; }
+    .gallery-tile { position: relative; overflow: hidden; border-radius: 20px; background: linear-gradient(135deg,#b8d4a1,#47744c); background-size: cover; background-position: center, center bottom; min-height: 180px; }
+    .gallery-tile { background-color: #6fa76a; transition: transform .3s, box-shadow .3s; }
+    .gallery-tile:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+    .gallery-tile:first-child { grid-row: span 2; }
+    .gallery-tile::after { content: ""; position: absolute; inset: 55% 0 0; background: linear-gradient(transparent,rgba(14,40,24,.72)); }
+    .gallery-tile span { position: absolute; z-index: 1; left: 19px; bottom: 17px; color: white; font-weight: 800; font-size: 1.05rem; }
+    .packages { background: #f0f4e9; }
+    .package-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+    .package-card { padding: 28px; border: 1px solid #e1e9dc; border-radius: 22px; background: white; }
+    .package-card.featured { border: 2px solid #8eaf65; box-shadow: var(--shadow); transform: translateY(-7px); }
+    .package-tag { display: inline-block; padding: 5px 10px; border-radius: 999px; background: var(--green-light); color: var(--green); font-size: .75rem; font-weight: 800; }
+    .package-card h3 { color: var(--green-dark); margin: 13px 0 6px; font-size: 1.25rem; }
+    .package-card p { color: var(--muted); font-size: .92rem; }
+    .package-card ul { list-style: none; padding: 0; margin: 20px 0 25px; display: grid; gap: 10px; }
+    .package-card li { font-size: .91rem; }
+    .package-card li::before { content: "✓"; color: #679243; font-weight: 900; margin-right: 9px; }
+    .price-note { font-size: .82rem; color: var(--muted); margin-top: 18px; }
+    .faq-list { display: grid; gap: 12px; max-width: 850px; }
+    .faq-list details { padding: 18px 20px; border: 1px solid #e1e9dc; border-radius: 15px; background: white; }
+    .faq-list summary { color: var(--green-dark); font-weight: 800; cursor: pointer; }
+    .faq-list details p { color: var(--muted); margin-bottom: 0; }
+    .cta-strip { margin-top: 28px; border-radius: 18px; padding: 23px; background: var(--lime); color: var(--green-dark); display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+    .cta-strip p { margin: 3px 0 0; }
+    @media (max-width: 900px) {
+      .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3,190px); }
+      .gallery-tile:first-child { grid-row: span 2; }
+      .package-grid { grid-template-columns: 1fr 1fr; }
+      .package-card.featured { transform: none; }
+    }
+    @media (max-width: 650px) {
+      .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: 210px 170px 170px; gap: 10px; }
+      .gallery-tile { min-height: 0; }
+      .gallery-tile:first-child { grid-column: span 2; grid-row: auto; }
+      .package-grid { grid-template-columns: 1fr; }
+      .cta-strip { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (max-width: 900px) {
+      .nav-links { gap: 15px; }
+      .nav-links .btn { padding: 10px 15px; }
+      .hero-grid, .about-grid, .experience-grid, .visit-panel, .contact-grid { grid-template-columns: 1fr; }
+      .hero-grid { gap: 38px; }
+      .hero-card { max-width: 600px; width: 100%; margin: 0 auto; }
+      .hero-photo { min-height: 330px; }
+      .about-grid, .experience-grid, .contact-grid { gap: 35px; }
+      .about-image { min-height: 350px; }
+      .floating-note { right: 15px; }
+      .visit-image { min-height: 300px; }
+      .cards { grid-template-columns: repeat(2,1fr); }
+      .stat { justify-content: flex-start; }
+    }
+    @media (max-width: 650px) {
+      .container { width: min(100% - 30px, 1140px); }
+      .topbar .container { justify-content: center; text-align: center; }
+      .nav { min-height: 69px; }
+      .menu-toggle { display: block; }
+      .nav-links { display: none; position: absolute; top: 69px; left: 0; right: 0; padding: 20px; background: var(--cream); border-bottom: 1px solid #dfe7dc; flex-direction: column; align-items: stretch; gap: 16px; }
+      .nav-links.open { display: flex; }
+      .nav-links .btn { width: 100%; }
+      .hero { padding: 58px 0 65px; }
+      h1 { letter-spacing: -1.5px; }
+      .hero p { font-size: 1rem; }
+      .hero-photo { min-height: 280px; }
+      .stats { grid-template-columns: 1fr 1fr; padding: 21px; gap: 20px 12px; }
+      .stat { border: 0; }
+      .stat-icon { width: 40px; height: 40px; }
+      section { padding: 65px 0; }
+      .cards { grid-template-columns: 1fr; }
+      .activity-img { height: 230px; }
+      .experience-visual div { min-height: 145px; }
+      .visit-copy { padding: 30px 23px; }
+      .form-row { grid-template-columns: 1fr; gap: 0; }
+      form { padding: 23px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <span>🌿 Belajar dari alam, tumbuh bersama keluarga</span>
+      <span>Agrowisata • Edukasi • Petualangan</span>
+    </div>
+  </div>
+  <header>
+    <nav class="container nav" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda" aria-label="Green Haven Adventure beranda">
+        <span class="brand-mark">🌱</span>
+        <span>Green Haven Adventure<small>Grow • Explore • Learn</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#aktivitas">Aktivitas</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#paket">Paket</a>
+        <a href="#kunjungan">Kunjungan</a>
+        <a class="btn btn-primary" href="#kontak">Rencanakan Wisata ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Petualangan dimulai di alam</span>
+          <h1>Jelajahi Alam,<br><span>Temukan Keajaiban</span><br>Pertanian.</h1>
+          <p>Tempat terbaik untuk keluarga menikmati alam, mengenal dunia pertanian, dan menciptakan kenangan berharga melalui pengalaman belajar yang menyenangkan.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#aktivitas">Jelajahi Aktivitas <span>↗</span></a>
+            <a class="btn btn-light" href="#tentang">Kenali Green Haven</a>
+          </div>
+          <div class="hero-note">
+            <div class="avatar-stack" aria-hidden="true"><span class="avatar">👨</span><span class="avatar">👩</span><span class="avatar">🧒</span></div>
+            <span>Pengalaman alam yang seru untuk semua generasi</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-photo" role="img" aria-label="Hamparan kebun hijau di bawah langit cerah">
+            <div class="photo-label"><strong>Destinasi Edukasi Pertanian Terbaik Untuk Keluarga</strong><span>Belajar, bermain, dan bertumbuh bersama alam.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container stats" aria-label="Keunggulan Green Haven Adventure">
+      <div class="stat"><div class="stat-icon">🌾</div><div><strong>Kenal Pertanian</strong><span>Belajar langsung di kebun</span></div></div>
+      <div class="stat"><div class="stat-icon">👨‍👩‍👧‍👦</div><div><strong>Ramah Keluarga</strong><span>Seru untuk segala usia</span></div></div>
+      <div class="stat"><div class="stat-icon">🌳</div><div><strong>Dekat Alam</strong><span>Jelajahi ruang hijau</span></div></div>
+      <div class="stat"><div class="stat-icon">✨</div><div><strong>Penuh Pengalaman</strong><span>Belajar sambil bermain</span></div></div>
+    </div>
+
+    <section id="tentang">
+      <div class="container about-grid">
+        <div class="about-image" role="img" aria-label="Petani sedang bekerja di ladang">
+          <div class="floating-note"><span>🌱</span>Setiap benih punya cerita. Setiap kunjungan jadi pengalaman.</div>
+        </div>
+        <div class="about-copy">
+          <div class="section-head">
+            <span class="section-kicker">Selamat datang di Green Haven</span>
+            <h2>Lebih dari sekadar wisata, ini perjalanan mengenal alam.</h2>
+            <p>Green Haven Adventure adalah konsep agrowisata yang mengajak pengunjung mengenal pertanian dengan cara yang dekat, menyenangkan, dan berkesan.</p>
+          </div>
+          <p>Di sini, anak-anak dan orang dewasa dapat melihat proses tumbuhnya tanaman, mengenal sumber pangan, serta menghargai peran alam dalam kehidupan sehari-hari.</p>
+          <ul class="check-list">
+            <li><span>✓</span> Aktivitas edukatif yang interaktif dan menyenangkan</li>
+            <li><span>✓</span> Pengalaman luar ruang untuk keluarga dan rombongan</li>
+            <li><span>✓</span> Mendorong kepedulian terhadap lingkungan</li>
+          </ul>
+          <a class="btn btn-primary" href="#kontak">Mulai Rencanakan Kunjungan ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="activities" id="aktivitas">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Aktivitas unggulan</span>
+          <h2>Banyak hal seru untuk dicoba.</h2>
+          <p>Rasakan pengalaman pertanian dari dekat melalui aktivitas yang dirancang untuk membuat belajar terasa seperti petualangan.</p>
+        </div>
+        <div class="cards">
+          <article class="activity-card">
+            <div class="activity-img" role="img" aria-label="Anak-anak menanam bibit di kebun" style="background-image:url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=900&q=85'), var(--ill-plant)"><span class="emoji">🌱</span></div>
+            <div class="activity-content"><h3>Menanam Bersama</h3><p>Kenali media tanam, benih, dan cara merawat tanaman sambil mencoba menanam sendiri.</p><a class="learn-more" href="#kontak">Tanyakan aktivitas ↗</a></div>
+          </article>
+          <article class="activity-card">
+            <div class="activity-img" role="img" aria-label="Traktor menyusuri area kebun hijau" style="background-image:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=85'), var(--ill-tractor)"><span class="emoji">🚜</span></div>
+            <div class="activity-content"><h3>Jelajah Kebun</h3><p>Berjalan menyusuri area hijau dan mengenal tanaman, hasil bumi, serta kehidupan di kebun.</p><a class="learn-more" href="#kontak">Tanyakan aktivitas ↗</a></div>
+          </article>
+          <article class="activity-card">
+            <div class="activity-img" role="img" aria-label="Hasil panen sayur dan tomat segar" style="background-image:url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=85'), var(--ill-harvest)"><span class="emoji">🍅</span></div>
+            <div class="activity-content"><h3>Panen Hasil Kebun</h3><p>Pelajari perjalanan bahan pangan dari kebun hingga ke meja makan dengan pengalaman panen.</p><a class="learn-more" href="#kontak">Tanyakan aktivitas ↗</a></div>
+          </article>
+          <article class="activity-card">
+            <div class="activity-img" role="img" aria-label="Petani di tengah ladang" style="background-image:url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=900&q=85'), var(--ill-farmer)"><span class="emoji">🧑‍🌾</span></div>
+            <div class="activity-content"><h3>Belajar Jadi Petani</h3><p>Kenali pekerjaan petani, alat pertanian, dan proses sederhana dalam menghasilkan pangan.</p><a class="learn-more" href="#kontak">Tanyakan aktivitas ↗</a></div>
+          </article>
+          <article class="activity-card">
+            <div class="activity-img" role="img" aria-label="Kupu-kupu dan bunga di alam" style="background-image:url('https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=85'), var(--ill-eco)"><span class="emoji">🦋</span></div>
+            <div class="activity-content"><h3>Kenali Ekosistem</h3><p>Amati keanekaragaman hayati dan pahami mengapa lingkungan perlu dijaga bersama.</p><a class="learn-more" href="#kontak">Tanyakan aktivitas ↗</a></div>
+          </article>
+          <article class="activity-card">
+            <div class="activity-img" role="img" aria-label="Piknik keluarga di bawah pohon" style="background-image:url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=900&q=85'), var(--ill-picnic)"><span class="emoji">📸</span></div>
+            <div class="activity-content"><h3>Piknik & Foto Alam</h3><p>Nikmati suasana hijau, abadikan momen bersama keluarga, dan rehat dari rutinitas.</p><a class="learn-more" href="#kontak">Tanyakan aktivitas ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pengalaman">
+      <div class="container experience-grid">
+        <div class="experience-visual" aria-label="Suasana alam dan pertanian">
+          <div role="img" aria-label="Bibit tanaman"></div><div role="img" aria-label="Hasil panen"></div><div role="img" aria-label="Kupu-kupu dan bunga"></div><div role="img" aria-label="Piknik di alam"></div>
+        </div>
+        <div>
+          <div class="section-head">
+            <span class="section-kicker">Belajar dengan pengalaman</span>
+            <h2>Pengalaman kecil, pelajaran besar.</h2>
+            <p>Kami percaya pengalaman langsung membantu setiap pengunjung lebih memahami alam dan menghargai makanan yang hadir di meja mereka.</p>
+          </div>
+          <div class="benefits">
+            <div class="benefit"><div class="benefit-icon">🧠</div><div><h3>Menambah wawasan</h3><p>Mengenal tanaman, pangan, dan dasar-dasar pertanian melalui kegiatan langsung.</p></div></div>
+            <div class="benefit"><div class="benefit-icon">🤝</div><div><h3>Membangun kebersamaan</h3><p>Kesempatan bagi keluarga dan kelompok untuk bekerja sama dan berbagi pengalaman.</p></div></div>
+            <div class="benefit"><div class="benefit-icon">💚</div><div><h3>Menumbuhkan cinta lingkungan</h3><p>Mendorong kebiasaan baik dan kepedulian terhadap alam sejak dini.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="gallery" id="galeri">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Galeri suasana</span>
+          <h2>Hijau, segar, dan penuh cerita.</h2>
+          <p>Bayangkan hari yang diisi udara segar, kebun yang asri, hasil panen, dan waktu berkualitas bersama orang tersayang.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-tile" role="img" aria-label="Hamparan alam" style="background-image:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=85'), var(--ill-hills)"><span>Hamparan alam</span></div>
+          <div class="gallery-tile" role="img" aria-label="Belajar menanam" style="background-image:url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=85'), var(--ill-plant)"><span>Belajar menanam</span></div>
+          <div class="gallery-tile" role="img" aria-label="Hasil kebun" style="background-image:url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=85'), var(--ill-harvest)"><span>Hasil kebun</span></div>
+          <div class="gallery-tile" role="img" aria-label="Jelajah pertanian" style="background-image:url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=85'), var(--ill-tractor)"><span>Jelajah pertanian</span></div>
+          <div class="gallery-tile" role="img" aria-label="Rehat di alam" style="background-image:url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=85'), var(--ill-picnic)"><span>Rehat di alam</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="paket">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Pilihan kunjungan</span>
+          <h2>Temukan pengalaman yang cocok.</h2>
+          <p>Contoh pilihan program yang bisa disesuaikan dengan fasilitas, kapasitas, dan kegiatan yang tersedia di Green Haven Adventure.</p>
+        </div>
+        <div class="package-grid">
+          <article class="package-card">
+            <span class="package-tag">Keluarga</span>
+            <h3>Petualangan Keluarga</h3>
+            <p>Waktu berkualitas bersama keluarga sambil menikmati suasana kebun.</p>
+            <ul><li>Jelajah area pertanian</li><li>Pengenalan tanaman</li><li>Aktivitas foto bersama</li></ul>
+            <a class="btn btn-primary" href="#kontak">Tanya Paket ↗</a>
+          </article>
+          <article class="package-card featured">
+            <span class="package-tag">Favorit Rombongan</span>
+            <h3>Edukasi Sekolah</h3>
+            <p>Kegiatan belajar di luar kelas untuk siswa dan pendamping.</p>
+            <ul><li>Pengenalan proses pertanian</li><li>Praktik tanam sederhana</li><li>Aktivitas kelompok</li></ul>
+            <a class="btn btn-primary" href="#kontak">Tanya Paket ↗</a>
+          </article>
+          <article class="package-card">
+            <span class="package-tag">Komunitas</span>
+            <h3>Wisata Kelompok</h3>
+            <p>Program untuk komunitas, organisasi, atau kegiatan kebersamaan.</p>
+            <ul><li>Rencana kegiatan fleksibel</li><li>Eksplorasi alam</li><li>Opsi aktivitas sesuai kebutuhan</li></ul>
+            <a class="btn btn-primary" href="#kontak">Tanya Paket ↗</a>
+          </article>
+        </div>
+        <p class="price-note">Harga belum dicantumkan karena belum ada tarif resmi dari usaha. Silakan hubungi kami untuk informasi harga, jadwal, dan ketersediaan aktivitas.</p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Pertanyaan umum</span>
+          <h2>Yang perlu Anda ketahui.</h2>
+          <p>Informasi awal untuk membantu mempersiapkan kunjungan ke Green Haven Adventure.</p>
+        </div>
+        <div class="faq-list">
+          <details><summary>Apakah kunjungan cocok untuk anak-anak?</summary><p>Konsep Green Haven Adventure ditujukan untuk pengalaman keluarga dan edukasi. Pilih aktivitas sesuai usia anak dan ikuti arahan petugas selama kegiatan.</p></details>
+          <details><summary>Apakah sekolah bisa melakukan kunjungan edukasi?</summary><p>Bisa mengajukan permintaan kunjungan sekolah melalui kontak. Jadwal, kapasitas, dan program perlu dikonfirmasi terlebih dahulu.</p></details>
+          <details><summary>Bagaimana cara mengetahui harga tiket?</summary><p>Harga tiket dan paket belum ditampilkan pada website ini. Hubungi tim Green Haven Adventure untuk mendapatkan informasi terbaru.</p></details>
+          <details><summary>Apa yang sebaiknya dibawa saat berkunjung?</summary><p>Gunakan pakaian nyaman, alas kaki yang sesuai untuk aktivitas luar ruang, topi, air minum, dan perlindungan dari matahari bila diperlukan.</p></details>
+        </div>
+        <div class="cta-strip"><div><strong>Siap menjelajah bersama?</strong><p>Hubungi kami untuk merencanakan kunjungan Anda.</p></div><a class="btn btn-primary" href="#kontak">Hubungi Green Haven ↗</a></div>
+      </div>
+    </section>
+
+    <section class="visit" id="kunjungan">
+      <div class="container visit-panel">
+        <div class="visit-copy">
+          <span class="eyebrow">Waktunya berpetualang</span>
+          <h2>Jadikan akhir pekan lebih bermakna.</h2>
+          <p>Ajak keluarga, sekolah, atau komunitas untuk merasakan pengalaman edukasi pertanian yang berbeda. Hubungi kami untuk mendiskusikan rencana kunjungan.</p>
+          <div class="visit-details">
+            <div class="visit-detail"><span>📅</span><div><b>Kunjungan keluarga & rombongan</b><span>Rencana kegiatan dapat disesuaikan dengan kebutuhan.</span></div></div>
+            <div class="visit-detail"><span>🎒</span><div><b>Siapkan diri untuk eksplorasi</b><span>Gunakan pakaian nyaman dan alas kaki yang sesuai untuk aktivitas luar ruang.</span></div></div>
+          </div>
+          <a class="btn btn-light" href="#kontak">Hubungi Kami ↗</a>
+        </div>
+        <div class="visit-image" role="img" aria-label="Pemandangan kebun hijau"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="kontak">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="section-kicker">Mari terhubung</span>
+          <h2>Rencanakan petualangan Anda.</h2>
+          <p>Punya pertanyaan tentang aktivitas, kunjungan sekolah, atau paket keluarga? Kirim pesan melalui formulir ini untuk memulai percakapan.</p>
+          <div class="contact-item"><div class="icon">📍</div><div><b>Lokasi</b><span>[Tambahkan alamat Green Haven Adventure]</span></div></div>
+          <div class="contact-item"><div class="icon">📱</div><div><b>WhatsApp</b><span>[Tambahkan nomor WhatsApp bisnis]</span></div></div>
+          <div class="contact-item"><div class="icon">✉️</div><div><b>Email</b><span>[Tambahkan email bisnis]</span></div></div>
+          <p style="font-size:.82rem;margin-top:25px">Catatan: ganti informasi dalam tanda kurung siku dengan detail usaha Anda sebelum website dipublikasikan.</p>
+        </div>
+        <form id="contactForm">
+          <div class="form-row">
+            <div><label for="nama">Nama lengkap</label><input id="nama" name="nama" placeholder="Nama Anda" required></div>
+            <div><label for="telepon">Nomor WhatsApp</label><input id="telepon" name="telepon" type="tel" placeholder="08xxxxxxxxxx" required></div>
+          </div>
+          <label for="minat">Jenis kunjungan</label>
+          <select id="minat" name="minat" required>
+            <option value="">Pilih jenis kunjungan</option>
+            <option>Kunjungan keluarga</option>
+            <option>Kunjungan sekolah</option>
+            <option>Rombongan / komunitas</option>
+            <option>Kerja sama / lainnya</option>
+          </select>
+          <label for="pesan">Pesan atau rencana kunjungan</label>
+          <textarea id="pesan" name="pesan" placeholder="Ceritakan rencana kunjungan Anda..."></textarea>
+          <button class="btn btn-primary" type="submit">Siapkan Pesan WhatsApp ↗</button>
+          <p class="form-hint">Formulir ini akan membuka WhatsApp setelah nomor bisnis diatur pada kode website.</p>
+          <p id="formMessage" class="form-hint" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand" href="#beranda"><span class="brand-mark">🌱</span><span>Green Haven Adventure<small>Destinasi Edukasi Pertanian Terbaik Untuk Keluarga</small></span></a>
+      <div>© <span id="year"></span> Green Haven Adventure. Tumbuh bersama alam.</div>
+      <div class="socials"><a href="#kontak">Kontak</a><a href="#aktivitas">Aktivitas</a><a href="#beranda">Kembali ke atas ↑</a></div>
+    </div>
+  </footer>
+
+  <script>
+    // GANTI dengan nomor WhatsApp bisnis Anda, gunakan kode negara tanpa tanda +.
+    // Contoh Indonesia: 6281234567890
+    const NOMOR_WHATSAPP = "628xxxxxxxxxx";
+
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
+    navLinks.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+      navLinks.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.textContent = "☰";
+    }));
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const nama = document.getElementById("nama").value.trim();
+      const telepon = document.getElementById("telepon").value.trim();
+      const minat = document.getElementById("minat").value;
+      const pesan = document.getElementById("pesan").value.trim();
+      const message = `Halo Green Haven Adventure!%0A%0ANama: ${encodeURIComponent(nama)}%0ANomor WhatsApp: ${encodeURIComponent(telepon)}%0AJenis kunjungan: ${encodeURIComponent(minat)}%0APesan: ${encodeURIComponent(pesan || "-")}`;
+      if (NOMOR_WHATSAPP.includes("x")) {
+        document.getElementById("formMessage").textContent = "Silakan atur NOMOR_WHATSAPP pada kode HTML dengan nomor bisnis Anda terlebih dahulu.";
+        return;
+      }
+      window.open(`https://wa.me/${NOMOR_WHATSAPP}?text=${message}`, "_blank", "noopener,noreferrer");
+    });
+  </script>
+</body>
+</html>
